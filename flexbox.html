@@ -6,6 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style4.css">
     <title>My Gallery</title>
+    <style type="text/css">
+        nav{
+        background-color: var(--primary-color);
+        border-bottom: 1px solid var(--hover-color);
+        }
+        nav ul{
+            list-style: none;
+            display:flex;
+        }
+        nav .home-li{
+            margin-right:auto;
+        }
+        nav a{
+            display: flex;
+            text-decoration:none;
+            color:var(--text-color);
+            padding:1em 2em;
+            transition: background-color 150ms ease;
+        }
+        nav a:hover{
+            background-color: var(--hover-color);
+        }
+    </style>
 </head>
  <div class="wrapper">
 <body>
