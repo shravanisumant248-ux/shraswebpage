@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Audio</title>
+<link rel="stylesheet" href ="style3.css">  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+<style type="text/css">
+    nav{
+        background-color: var(--primary-color);
+        border-bottom: 1px solid var(--hover-color);
+    }
+    nav ul{
+        list-style: none;
+        display:flex;
+    }
+    nav .home-li{
+        margin-right:auto;
+    }
+    nav a{
+        display: flex;
+        text-decoration:none;
+        color:var(--text-color);
+        padding:1em 2em;
+        transition: background-color 150ms ease;
+    }
+    nav a:hover{
+        background-color: var(--hover-color);
+    }
+</style>
+</head>
+<body>
+    <div id="music-player">
+        <img id="song-img" src="BlueyTunesImg.jpg">
+        <div id="song-name">Song</div>
+        <div id="song-artist">Artist</div>
+
+        <input id="slider-song"type="range">
+
+        <div id="music-buttons">
+            <i id="shuffle-song" class="fa-solid fa-shuffle"></i>
+            <i id="prev-song" class="fa-solid fa-backward-step fa-2x"></i>
+            <i id="playpause-song" class="fa-solid fa-circle-play fa-3x"></i> 
+            <i id="next-song" class="fa-solid fa-forward-step fa-2x"></i>
+            <i id="repeat-song" class="fa-solid fa-repeat"></i>
+        </div>
+    </div>
+    <script src="music.js"></script>
+</body>
+
+</html>
+

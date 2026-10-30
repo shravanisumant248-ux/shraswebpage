@@ -1,0 +1,11 @@
+.Header{
+    font-size: large;
+    font-weight: 150px;
+    text-align: center;
+    justify-content: center;
+    border-color: black;
+}
+.img{
+    width: 64px;
+    height:85px;
+}

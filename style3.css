@@ -1,0 +1,47 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+#music-player{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin-top:40px;
+}
+#song-img{
+    height:400px;
+    width:400px;
+    border-radius:10px;
+}
+#song-name{
+    margin-top:20px;
+    font-size:2em;
+}
+#music-buttons{
+    display:flex;
+    align-items:center;
+    margin-top:20px;
+}
+#music-buttons i{
+    padding:10px;
+}
+#slider-song{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 300px;
+    height:5px;
+    background: rgb(10, 10, 141);
+    border:1px solid;
+    border-radius:10px;
+    margin-top:20px;
+}
+#slider-song::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background:rgb(5, 5, 72);
+    width:15px;
+    height:15px;
+    border-radius:50%;
+}

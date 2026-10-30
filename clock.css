@@ -1,0 +1,26 @@
+body{
+    background:url(InspirationforNekomaGame.jpg);
+    background-position:center;
+    margin:0;   
+    background-attachment:fixed;
+}   
+#clock-container{
+   display:flex; 
+   justify-content:center;
+   align-items:center;
+   height:100vh;
+}
+#clock{
+    font-family:'Courier New', Courier, monospace;
+    font-size:6.5rem;
+    font-weight:bold;
+    text-align:center;
+    color:rgb(57, 46, 40);
+    backdrop-filter:blur(3px);
+    width:100%;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
